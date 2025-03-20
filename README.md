@@ -15,6 +15,10 @@ A simple data augmentation procedure is included in the script (rotation and fli
 Training is possible on CPU and GPU, but GPU is recommended to save time.  
 It is also possible to run the code in a Notebook or Google Colab [ML_for_infection_discrimination_v1_1.ipynb](https://github.com/leclercsimon74/Infection_Prediction_CPV/blob/main/ML_for_infection_discrimination_v1_1.ipynb). 
 
+The provided model reached a 93% accurancy on the validation.  
+![accuracy](https://github.com/leclercsimon74/Infection_Prediction_CPV/blob/main/accuracy_history.png)  
+![loss](https://github.com/leclercsimon74/Infection_Prediction_CPV/blob/main/loss_history.png)  
+
 ## Prediction
 The python script [Prediction of Infection CPV.py](https://github.com/leclercsimon74/Infection_Prediction_CPV/blob/main/Prediction%20of%20Infection%20CPV.py) can predict a whole folder of images (TIFF) in the same shape than the training, and output a CSV table with the different probabilities.  
 It is also possible to run the code in a Notebook or Google Colab [Prediction_of_infection_by_ML_v1_1.ipynb](https://github.com/leclercsimon74/Infection_Prediction_CPV/blob/main/Prediction_of_infection_by_ML_v1_1.ipynb).   
